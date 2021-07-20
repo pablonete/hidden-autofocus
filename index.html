@@ -8,13 +8,15 @@
   </head>
   <body>
     <label for="name">Name</label>
-    <input type="text" id="name" autofocus />
+    <input type="text" id="name" placeholder="Skip initial focus" />
 
     <details>
-      <summary>Click me!</summary>
+      <summary autofocus>Click me!</summary>
 
-      <label for="age">Age</label>
-      <input type="number" id="age" autofocus />
+      <details-menu>
+        <label for="age">Age</label>
+        <input type="number" id="age" autofocus />
+      </details-menu>
     </details>
   </body>
 </html>
